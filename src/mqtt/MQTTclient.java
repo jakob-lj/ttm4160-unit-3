@@ -11,6 +11,7 @@ import org.eclipse.paho.client.mqttv3.persist.MemoryPersistence;
 import runtime.Scheduler;
 
 public class MQTTclient implements MqttCallback {
+	//Test
 	
 	private Scheduler scheduler;
 	private MqttClient client;
@@ -35,7 +36,7 @@ public class MQTTclient implements MqttCallback {
 
 	
 	public void connectionLost(Throwable e) {
-
+		
 	}
 	
 	public void deliveryComplete(IMqttDeliveryToken token) {
